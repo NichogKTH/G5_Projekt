@@ -69,7 +69,7 @@ int main(int argc, const char * argv[])
             */
     }
          
-        SDL_SetRenderDrawColor(renderer, 255, 255, 255, 255);
+        SDL_SetRenderDrawColor(renderer, 0xFF, 0xFF, 0xFF, 0xFF);
         SDL_RenderClear(renderer);
         //renderBackground();
         SDL_RenderPresent(renderer);
